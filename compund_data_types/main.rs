@@ -50,6 +50,8 @@ fn main() {
     println!("String: {}", string);
 }
 
-fn print() {
-    println!("SLICE: {}", slice);
-}
+// will cause a scope error
+
+// fn print() {
+//     println!("SLICE: {}", slice);
+// }
